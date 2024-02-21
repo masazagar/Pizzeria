@@ -1,0 +1,116 @@
+html {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline;
+}
+
+/* PIZZA  */
+img {
+  width: 150px;
+}
+.pizzas {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: "Kanit", sans-serif;
+  margin-top: 20px;
+}
+
+.pizzas h4 {
+  font-size: ;
+}
+
+.pizza-info {
+  display: flex;
+
+  justify-content: center;
+  max-width: 250px;
+  margin: 0 auto;
+  background-color: rgb(247, 241, 233);
+  padding: 10px;
+}
+
+.pizza-details {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: center;
+}
+
+.price {
+  font-weight: bold;
+}
+
+@media (min-width: 1000px) {
+  .pizzas {
+    gap: 30px;
+  }
+  .pizza-info {
+    font-size: 20px;
+    max-width: 400px;
+  }
+  img {
+    width: 200px;
+  }
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  background-color: antiquewhite;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(255, 203, 106);
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: orange;
+  border: none;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
